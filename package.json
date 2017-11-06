@@ -1,0 +1,30 @@
+{
+  "name": "benproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "materialize-css": "^0.100.2",
+    "page": "^1.7.1",
+    "superagent": "^3.8.0",
+    "uikit": "^3.0.0-beta.31"
+  }
+}
